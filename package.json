@@ -1,0 +1,39 @@
+{
+  "name": "rsi-divergence-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.51.0",
+    "react-input-range": "^1.3.0",
+    "socket.io": "^3.0.5",
+    "technicalindicators": "^3.1.0"
+  }
+}

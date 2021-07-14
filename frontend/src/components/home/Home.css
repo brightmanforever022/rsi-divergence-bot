@@ -1,0 +1,132 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coinsRanking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.coinsRankingTitle {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.coinsRankingNavigation {
+    float: right;
+}
+
+.coinsRankingNavigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.coinsRankingNavigation button {
+    background-color: white;
+    border: 1px solid #efefef;
+    color: #2353ac;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.coinsRankingNavigation button:disabled {
+    color: black;
+    background-color: #efefef;
+}
+
+.coinsRankingNavigation .firstButton {
+    border-radius: 2px 0px 0px 2px;
+}
+
+.coinsRankingNavigation .lastButton {
+    border-radius: 0px 2px 2px 0px;
+}
+
+.coinsRankingTable {
+    border-collapse: collapse;
+}
+
+.coinsRankingTable .coinsRankingTableHead tr {
+    border-top: 0.2px solid #dbdfe4;
+}
+
+.coinsRankingTable tr {
+
+    border-bottom: 0.2px solid #dbdfe4;
+}
+
+.coinsRankingTable td, .coinsRankingTable th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.coinsRankingTable td {
+    
+}
+
+.coinsRankingTable .nameCell {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.coinsRankingTable .nameCell a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.coinsRankingTable .nameCell a > * {
+    display: inline;
+}
+
+.coinsRankingTable .logoContainer {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-size: 100% !important;
+}
+
+.coinsRankingTable .coinLogo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.searchResultsHeader {
+    float: left;
+    font-weight: normal;
+}
+
+.coinsRankingNavigationContainer {
+    width: 100%;
+}
+
+@media screen and (max-width: 1055px) {
+    .coinsRankingTable {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .coinsRankingTitle {
+        text-align: center;
+    }
+
+    .tableContainer {
+        width: 120%;
+        overflow-x: auto;
+    }
+}
